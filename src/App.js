@@ -9,7 +9,20 @@ function App() {
             <a href="./index.html" class="logo">
               <strong>SMM specialist</strong> portfolio
             </a>
-
+            <button class="eng-mode-btn">
+              <img
+                src="https://img.icons8.com/?size=30&id=dHLUcDM_MwLT&format=png&color=000000"
+                alt="rus"
+              />
+              <img
+                src="https://img.icons8.com/?size=30&id=ShNNs7i8tXQF&format=png&color=000000"
+                alt="eng"
+              />
+              <img
+                src="https://img.icons8.com/?size=30&id=PJS8tczBqyAi&format=png&color=000000"
+                alt="rus"
+              />
+            </button>
             <ul class="nav-list">
               <li class="nav-list__item">
                 <a
@@ -50,15 +63,47 @@ function App() {
         <div class="container">
           <ul class="content-list">
             <li class="content-list__item">
-              <h2 class="title-2">Frontend</h2>
+              <h2 class="title-2">
+                Experienced SMM Specialist Ready to Grow Your Brand
+              </h2>
               <p>
-                JavaScript, TypeScript, ReactJS, Angular, Redux, HTML, CSS, NPM,
-                BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
+                I specialize in creating effective social media strategies that
+                engage audiences and drive growth. My campaigns help brands
+                stand out and build lasting relationships with their customers.
+                Explore my successful case studies below.
               </p>
             </li>
             <li class="content-list__item">
-              <h2 class="title-2">Backend</h2>
-              <p>NodeJS, MySQL, MongoDB, PHP, Laravel</p>
+              <h2 class="title-2">
+                Case Studies: Real Results for Real Brands
+              </h2>
+              <p>
+                From launching social media campaigns to managing content, each
+                project was tailored to achieve specific client goals. See how I
+                helped businesses grow their audience, increase sales, and
+                strengthen their online presence.
+              </p>
+            </li>
+            <li class="content-list__item">
+              <h2 class="title-2">A Personalized Approach for Every Client</h2>
+              <p>
+                Every brand is unique, and I create custom strategies based on
+                the client’s objectives and target audience. Whether it's
+                promoting new products, enhancing brand image, or growing
+                followers, my solutions are driven by data analysis and the
+                latest trends.
+              </p>
+            </li>
+            <li class="content-list__item">
+              <h2 class="title-2">
+                Transparency and Reporting: Tangible Results Every Month
+              </h2>
+              <p>
+                I provide detailed reports with key metrics for every project so
+                you can see real progress—from increased reach to improved
+                conversions. This analytics-driven approach allows for
+                continuous adjustments to ensure the best possible outcomes.
+              </p>
             </li>
           </ul>
         </div>
@@ -70,15 +115,15 @@ function App() {
               <li class="social__item">
                 <a href="https://www.instagram.com/_dilmoon/?igsh=MTUxODc1cnc2OWY4NA%3D%3D">
                   <img
-                    src="https://img.icons8.com/?size=100&id=32323&format=png&color=000000"
+                    src="https://img.icons8.com/?size=60&id=32292&format=png&color=ffffff"
                     alt="Link"
                   />
                 </a>
               </li>
-              <li class="social__item">
+              <li className="social__item">
                 <a href="https://www.tiktok.com/@dilmoonmondi?_t=8pmEFkdqucy&_r=1">
                   <img
-                    src="https://img.icons8.com/?size=100&id=118640&format=png&color=000000"
+                    src="https://img.icons8.com/?size=60&id=84521&format=png&color=ffffff"
                     alt="Link"
                   />
                 </a>
@@ -86,7 +131,7 @@ function App() {
               <li class="social__item">
                 <a href="https://t.me/dilmoonn">
                   <img
-                    src="https://img.icons8.com/?size=100&id=63306&format=png&color=000000"
+                    src="https://img.icons8.com/?size=60&id=85428&format=png&color=ffffff"
                     alt="Link"
                   />
                 </a>
@@ -94,7 +139,7 @@ function App() {
               <li class="social__item">
                 <a href="!">
                   <img
-                    src="https://img.icons8.com/?size=100&id=114452&format=png&color=000000"
+                    src="https://img.icons8.com/?size=60&id=60453&format=png&color=ffffff"
                     alt="Link"
                   />
                 </a>
