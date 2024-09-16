@@ -1,5 +1,5 @@
 function App() {
-  return <div>Ramazan Mamanov</div>
+  return <div className="App">Ramazan Mamanov</div>
 }
 
 export default App
