@@ -4,27 +4,27 @@ export default function Navbar() {
   return (
     <div>
       {' '}
-      <nav class="nav">
-        <div class="container">
-          <div class="nav-row">
-            <a href="./index.html" class="logo">
+      <nav className="nav">
+        <div className="container">
+          <div className="nav-row">
+            <a href="./index.html" className="logo">
               <strong>SMM specialist</strong> portfolio
             </a>
-            <ul class="languages">
+            <ul className="languages">
               {' '}
-              <button class="rus-language">
+              <button className="rus-language">
                 <img
                   src="https://img.icons8.com/?size=30&id=dHLUcDM_MwLT&format=png&color=000000"
                   alt="rus"
                 />
               </button>
-              <button class="eng-language">
+              <button className="eng-language">
                 <img
                   src="https://img.icons8.com/?size=30&id=ShNNs7i8tXQF&format=png&color=000000"
                   alt="eng"
                 />
               </button>
-              <button class="cz-language">
+              <button className="cz-language">
                 <img
                   src="https://img.icons8.com/?size=30&id=PJS8tczBqyAi&format=png&color=000000"
                   alt="cz"
@@ -32,23 +32,23 @@ export default function Navbar() {
               </button>
             </ul>
 
-            <ul class="nav-list">
-              <li class="nav-list__item">
+            <ul className="nav-list">
+              <li className="nav-list__item">
                 <a
                   href="./index.html"
-                  class="nav-list__link nav-list__link--active"
+                  className="nav-list__link nav-list__link--active"
                 >
                   Home
                 </a>
               </li>
-              <li class="nav-list__item">
-                <a href="./projects.html" class="nav-list__link">
+              <li className="nav-list__item">
+                <a href="./projects.html" className="nav-list__link">
                   Projects
                 </a>
               </li>
-              <li class="nav-list__item">
-                <a href="./contacts.html" class="nav-list__link">
-                  Contacts
+              <li className="nav-list__item">
+                <a href="./price.html" className="nav-list__link">
+                  Price
                 </a>
               </li>
             </ul>

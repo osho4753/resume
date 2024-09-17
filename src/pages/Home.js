@@ -1,13 +1,16 @@
 import React from 'react'
+import Header from '../components/Header'
+import photo01 from '../img/projects/01.jpg'
 
-export default function Main() {
+export default function Home() {
   return (
     <div>
-      <main class="section">
-        <div class="container">
-          <ul class="content-list">
-            <li class="content-list__item">
-              <h2 class="title-2">
+      <Header />
+      <main className="section">
+        <div className="container">
+          <ul className="content-list">
+            <li className="content-list__item">
+              <h2 className="title-2">
                 Experienced SMM Specialist Ready to Grow Your Brand
               </h2>
               <p>
@@ -17,8 +20,8 @@ export default function Main() {
                 Explore my successful case studies below.
               </p>
             </li>
-            <li class="content-list__item">
-              <h2 class="title-2">
+            <li className="content-list__item">
+              <h2 className="title-2">
                 Case Studies: Real Results for Real Brands
               </h2>
               <p>
@@ -28,8 +31,10 @@ export default function Main() {
                 strengthen their online presence.
               </p>
             </li>
-            <li class="content-list__item">
-              <h2 class="title-2">A Personalized Approach for Every Client</h2>
+            <li className="content-list__item">
+              <h2 className="title-2">
+                A Personalized Approach for Every Client
+              </h2>
               <p>
                 Every brand is unique, and I create custom strategies based on
                 the client’s objectives and target audience. Whether it's
@@ -38,8 +43,8 @@ export default function Main() {
                 latest trends.
               </p>
             </li>
-            <li class="content-list__item">
-              <h2 class="title-2">
+            <li className="content-list__item">
+              <h2 className="title-2">
                 Transparency and Reporting: Tangible Results Every Month
               </h2>
               <p>
@@ -48,6 +53,10 @@ export default function Main() {
                 conversions. This analytics-driven approach allows for
                 continuous adjustments to ensure the best possible outcomes.
               </p>
+            </li>
+            <li className="project">
+              <img src={photo01} alt="Project img" className="project__img" />
+              <h3 className="project__title">Nice to meet you</h3>
             </li>
           </ul>
         </div>

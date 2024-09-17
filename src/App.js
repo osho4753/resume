@@ -1,15 +1,13 @@
 import Footer from './components/Footer'
-import Header from './components/Header'
-import Main from './components/Main'
 import Navbar from './components/Navbar'
+import Price from './pages/Price'
 import './styles/main.css'
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Header />
-      <Main />
+      <Price />
       <Footer />
     </div>
   )
