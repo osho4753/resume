@@ -5,7 +5,7 @@ import './styles/main.css'
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Navbar />
       <Price />
       <Footer />
