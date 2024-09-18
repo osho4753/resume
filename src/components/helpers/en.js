@@ -1,0 +1,96 @@
+const content = {
+  en: {
+    home: {
+      home: 'Home',
+      projects: 'Projects',
+      price: 'Price',
+      portfolio: 'SMM specialist portfolio',
+      title:
+        'Hi, my name is Dilnaz SMM specialist from Prague with passion for learning and creating.',
+      li1: 'Experienced SMM Specialist Ready to Grow Your Brand ',
+      li2: 'Case Studies: Real Results for Real Brands ',
+      li3: 'A Personalized Approach for Every Client',
+      li4: 'Transparency and Reporting: Tangible Results Every Month',
+      p1: 'I specialize in creating effective social media strategies that engage audiences and drive growth. My campaigns help brands stand out and build lasting relationships with their customers. Explore my successful case studies below. ',
+      p2: 'From launching social media campaigns to managing content, each project was tailored to achieve specific client goals. See how I helped businesses grow their audience, increase sales, and strengthen their online presence. ',
+      p3: "Every brand is unique, and I create custom strategies based on the client’s objectives and target audience. Whether it's promoting new products, enhancing brand image, or growing followers, my solutions are driven by data analysis and the latest trends.",
+      p4: 'I provide detailed reports with key metrics for every project so you can see real progress—from increased reach to improved conversions. This analytics-driven approach allows for continuous adjustments to ensure the best possible outcomes.',
+      footer: 'Contacts',
+    },
+    projects: {
+      title: 'Projects',
+    },
+    price: {
+      title: 'Pricing Plans',
+      l1: 'PROFILE MANAGEMENT',
+      l2: 'PROFILE PACKAGING',
+      p1: "❣ For those who don't have time to manage their page and want to entrust it to a professional, then this is for you. ❣ We will create a strategy for promoting your account, profile analysis + product competitors and who you are for Regular and daily posting of quality content that will attract new subscribers and most importantly convey your values development of individual style packaging profile 12 posts (photo/ Wils) ❣ Content plan ❣ Shooting content photo ❣ Video",
+      p2: '❣ For whom if you can handle the management yourself, but you need direction, foundation and help with creating a visual, or redesign then this is for you. ❣ ANALYSIS of profile + product + competitors and who you are for ❣ Development of an individual style ❣ Profile photo ❣ Profile header ❣ Creating relevant stories ❣ Creation of visuals for 12 posts, including photo and video content ❣ Content shooting',
+      price1: '6 000 czk/month',
+      price2: '4 000 czk/2 weeks',
+    },
+  },
+  rus: {
+    home: {
+      home: 'Главная',
+      projects: 'Проекты',
+      price: 'Цены',
+      portfolio: 'СММ специалист',
+      title:
+        'Привет, меня зовут Дильназ, я SMM специалист из Праги с увлечением к обучению и созданию.',
+      li1: 'Опытный SMM специалист, готовый развивать ваш бренд',
+      li2: 'Кейсы: реальные результаты для реальных брендов',
+      li3: 'Индивидуальный подход к каждому клиенту',
+      li4: 'Прозрачность и отчётность: ощутимые результаты каждый месяц',
+      p1: 'Я специализируюсь на создании эффективных стратегий в социальных сетях, которые вовлекают аудиторию и способствуют росту. Мои кампании помогают брендам выделяться и строить долгосрочные отношения с клиентами. Изучите мои успешные кейсы ниже.',
+      p2: 'От запуска кампаний в соцсетях до управления контентом — каждый проект был настроен для достижения конкретных целей клиента. Узнайте, как я помогал компаниям увеличивать аудиторию, повышать продажи и укреплять их присутствие в интернете.',
+      p3: 'Каждый бренд уникален, и я создаю индивидуальные стратегии, основанные на целях клиента и его целевой аудитории. Независимо от того, продвигаете ли вы новые продукты, улучшаете имидж бренда или наращиваете количество подписчиков, мои решения базируются на анализе данных и последних трендах.',
+      p4: 'Я предоставляю подробные отчёты с ключевыми метриками для каждого проекта, чтобы вы могли видеть реальный прогресс — от увеличения охвата до улучшения конверсий. Такой подход, основанный на аналитике, позволяет постоянно вносить коррективы и добиваться наилучших результатов.',
+      footer: 'Контакты',
+    },
+    projects: {
+      title: 'Проекты',
+    },
+    price: {
+      title: 'Тарифные планы',
+      l1: 'УПРАВЛЕНИЕ ПРОФИЛЕМ',
+      l2: 'УПАКОВКА ПРОФИЛЯ',
+      p1: '❣ Для тех, у кого нет времени управлять своей страницей и кто хочет доверить её профессионалу. ❣ Мы создадим стратегию продвижения вашего аккаунта, проведём анализ профиля, продукта и конкурентов, а также определим вашу аудиторию. Регулярная и ежедневная публикация качественного контента, который привлечёт новых подписчиков и, главное, передаст ваши ценности. Разработка индивидуального стиля упаковки профиля. 12 постов (фото/видео). ❣ Контент-план ❣ Съёмка контента фото ❣ Видео',
+      p2: '❣ Для тех, кто может самостоятельно управлять, но нуждается в направлении, основе и помощи в создании визуала или редизайне. ❣ АНАЛИЗ профиля, продукта, конкурентов и целевой аудитории ❣ Разработка индивидуального стиля ❣ Фото профиля ❣ Оформление профиля ❣ Создание актуальных сторис ❣ Создание визуала для 12 постов, включая фото и видео контент ❣ Съёмка контента',
+      price1: '6 000 крон/месяц',
+      price2: '4 000 крон/2 недели',
+    },
+  },
+  cz: {
+    home: {
+      home: 'Domů',
+      projects: 'Proekty',
+      price: 'Ceny',
+      portfolio: 'SMM specialista',
+      title:
+        'Ahoj, jmenuji se Dilnaz, jsem SMM specialista z Prahy s vášní pro učení a tvorbu.',
+      li1: 'Zkušený SMM specialista připravený růst vaši značku',
+      li2: 'Případové studie: skutečné výsledky pro skutečné značky',
+      li3: 'Personalizovaný přístup ke každému klientovi',
+      li4: 'Transparentnost a reportování: hmatatelné výsledky každý měsíc',
+      p1: 'Specializuji se na tvorbu efektivních strategií sociálních médií, které zapojují publikum a podporují růst. Mé kampaně pomáhají značkám vyniknout a budovat trvalé vztahy se zákazníky. Prozkoumejte mé úspěšné případové studie níže.',
+      p2: 'Od spuštění kampaní na sociálních sítích až po správu obsahu, každý projekt byl přizpůsoben k dosažení konkrétních cílů klienta. Podívejte se, jak jsem pomohl firmám růst jejich publikum, zvýšit prodeje a posílit jejich online přítomnost.',
+      p3: 'Každá značka je jedinečná a vytvářím vlastní strategie na základě cílů klienta a cílové skupiny. Ať už se jedná o propagaci nových produktů, zlepšení image značky nebo růst sledujících, moje řešení jsou založena na analýze dat a nejnovějších trendech.',
+      p4: 'Poskytuji podrobné zprávy s klíčovými metrikami pro každý projekt, abyste viděli skutečný pokrok – od zvýšeného dosahu po lepší konverze. Tento analyticky řízený přístup umožňuje neustálé úpravy k dosažení co nejlepších výsledků.',
+      footer: 'Kontakty',
+    },
+    projects: {
+      title: 'Projekty',
+    },
+    price: {
+      title: 'Ceník',
+      l1: 'SPRÁVA PROFILU',
+      l2: 'BALENÍ PROFILU',
+      p1: '❣ Pro ty, kteří nemají čas spravovat svou stránku a chtějí ji svěřit profesionálovi. ❣ Vytvoříme strategii pro propagaci vašeho účtu, analýzu profilu, produktu a konkurence a definujeme vaši cílovou skupinu. Pravidelné a každodenní zveřejňování kvalitního obsahu, který přiláká nové sledující a hlavně předá vaše hodnoty. Vytvoření individuálního stylu balení profilu. 12 příspěvků (fotografie / videa). ❣ Plán obsahu ❣ Focení obsahu ❣ Video',
+      p2: '❣ Pro ty, kteří si mohou správu zvládnout sami, ale potřebují směr, základ a pomoc při tvorbě vizuálu nebo redesignu. ❣ ANALÝZA profilu, produktu, konkurence a cílové skupiny ❣ Vytvoření individuálního stylu ❣ Profilová fotografie ❣ Záhlaví profilu ❣ Vytváření relevantních příběhů ❣ Vytváření vizuálů pro 12 příspěvků, včetně foto a video obsahu ❣ Focení obsahu',
+      price1: '6 000 CZK/měsíc',
+      price2: '4 000 CZK/2 týdny',
+    },
+  },
+}
+export { content }
