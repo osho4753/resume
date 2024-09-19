@@ -1,19 +1,8 @@
-import React, { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { content } from './helpers/en'
-export default function Navbar() {
+export default function Navbar({ language, changeLanguage }) {
   const active = 'nav-list__link nav-list__link--active'
   const normal = 'nav-list__link'
-
-  const [language, setLanguage] = useState('en')
-  useEffect(() => {
-    const storedLang = localStorage.getItem('language') || 'en'
-    setLanguage(storedLang)
-  }, [])
-  const changeLanguage = (lang) => {
-    setLanguage(lang)
-    localStorage.setItem('language', lang)
-  }
   return (
     <nav className="nav">
       <div className="container">

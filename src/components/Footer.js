@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Footer() {
+export default function Footer({ content }) {
   return (
     <footer className="footer">
       <div className="container">
@@ -23,17 +23,9 @@ export default function Footer() {
               </a>
             </li>
             <li className="social__item" data-hover-text="Telegram">
-              <a href="https://t.me/dilmoonn">
+              <a href="https://t.me/smmdilyas">
                 <img
                   src="https://img.icons8.com/?size=60&id=85428&format=png&color=ffffff"
-                  alt="Link"
-                />
-              </a>
-            </li>
-            <li className="social__item" data-hover-text="Vk">
-              <a href="!">
-                <img
-                  src="https://img.icons8.com/?size=60&id=60453&format=png&color=ffffff"
                   alt="Link"
                 />
               </a>
@@ -48,7 +40,7 @@ export default function Footer() {
             </li>
           </ul>
           <div className="copyright">
-            <p>Welcome to my social media</p>
+            <p>{content.home.footer}</p>
           </div>
         </div>
       </div>

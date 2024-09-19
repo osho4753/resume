@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-export default function ProjectCard({ img, title, index }) {
+export default function ProjectCard({ img, title, imgBig, index }) {
   return (
     <div>
       <li className="project">
